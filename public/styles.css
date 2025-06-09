@@ -32,5 +32,17 @@ h1, h2, h3 {
 }
 
 .hidden {
+  }
+
+.quiz-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #c4161c;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
   display: none;
 }
