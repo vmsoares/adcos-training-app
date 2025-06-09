@@ -28,10 +28,13 @@ app.get('/api/leaderboard', (req, res) => {
 });
 
 app.get('/api/modules', (req, res) => {
-  const modules = [
+  cons  const modules = [
     { id: 1, title: 'Conheça a linha de produtos', points: 50 },
     { id: 2, title: 'Técnicas de venda consultiva', points: 70 },
     { id: 3, title: 'Atendimento ao cliente', points: 60 },
+    { id: 4, title: 'Dicas rápidas de cross-selling', points: 40 },
+    { id: 5, title: 'Macetes de fechamento de venda', points: 50 },
+    { id: 6, title: 'Treinamento relâmpago: objeções comuns', points: 60 }
   ];
   res.json(modules);
 });
